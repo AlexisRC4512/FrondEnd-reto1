@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'MiFuente';
+    src: url('assets/fonts/Roboto-Bold.ttf') format('woff2'),
+         url('assets/fonts/Roboto-Regular.ttf') format('woff');
+  }
+body{
+    background-color: hsl(228, 53%, 19%);
+    justify-content: center;
+}
+h2{
+    color: hsl(228, 53%, 19%);
+    text-align: left;
+    font-size: 45px;
+    font-weight: 100px;
+    font-family:'MiFuente';
+}
+p{
+    font-size: 15px;
+    color: hsl(228, 53%, 19%);
+}
+.container{
+    background-color: white;
+    border-radius: 20px;
+    width: 700px;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    margin: 0 auto;
+}
+#Information{
+    text-align: left;
+    padding: 14px 28px 14px 28px;
+}
+.ImagesFilter{
+    height: 420px;
+    width: 350px;
+    margin: 30px 0px 50px 0;
+}
+span{
+    color: #000;
+    font-size: small;
+    text-align: left;
+}
+#formEmail{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+label{
+    font-family: 'MiFuente';
+    font-size: small;
+}
+input{
+    height: 35px;
+    width: 90%;
+}
+button{
+    padding-top: 10px;
+    height: 45px;
+    width: 92%;
+    color: hsl(0, 0%, 100%);
+    background-color: rgb(26, 26, 32);
+    border-radius:5px;
+    border-style: none;
+}
